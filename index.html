@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hari Kiran - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="assets/LOGO2.png" type="image/x-icon">
+    
+</head>
+<body>
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+  
+    <header class="mobile-header">
+        <img src="assets/LOGO2.png" alt="Logo" id="mobile-logo">
+        <button id="hamburger" class="hamburger-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+  
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <img src="assets/LOGO2.png" alt="Logo" id="logo">
+            
+            <h2>Hari Kiran</h2> 
+            
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#projects" class="nav-link"><i class="fas fa-code"></i> Projects</a></li>
+                <li><a href="#skills" class="nav-link"><i class="fas fa-tools"></i> Skills</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="theme-btn"><i class="fas fa-moon"></i></button>
+    </aside>
+
+  
+    <main>
+       
+        <section id="hero" class="section">
+            <div id="particles-js"></div>
+            <div class="hero-content">
+                <h1>Hello, I’m <span>Hari Kiran</span></h1>
+
+                <p>Data Science | Tech Enthusiast</p>
+                <img src="assets/LOGO2.png" alt="Logo" id="logo">
+                <div class="social-links">
+                    <a href="https://github.com/HariKiran30" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/hari-kiran-tiriveedi/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/harikiran__/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    
+                </div>
+                <a href="#projects" class="cta-btn">Explore My Work</a>
+            </div>
+        </section>
+
+     
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                
+                <img src="assets/03.png" alt="Profile" class="profile-img">
+                <p>I’m a Computer Science graduate (2024, Lovely Professional University) passionate about data science and frontend development. With two research publications, I blend creativity and technical expertise to solve real-world problems.</p>
+                
+                <img src="assets/LOGO2.png" alt="Logo" id="logo">
+            </div>
+        </section>
+
+       
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="filter-btns">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="Analysis">Analysis</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="game">Game Dev</button>
+            </div>
+            <div class="project-grid">
+
+                <div class="project-card" data-category="Analysis">
+                    <h3>Twitter Hastag Analysis</h3>
+                    <p>Deep Learning-based image recognition for recipes.</p>
+                    <a href="https://drive.google.com/file/d/1KwYJTq-GE_3m6fRVwUQPizxnE4STpJOp/view" target="_blank" class="project-link">Analysis Report</a> <span> |</span>
+                    <a href="https://github.com/HariKiran30/Twitter-Hashtag-s-Analysis" target="_blank" class="project-link">View Code</a> <span> |</span>
+                    <a href="https://www.linkedin.com/posts/hari-kiran-tiriveedi_twitter-hashtags-analysis-report-1pdf-activity-7309165393087012864--GRO?utm_source=share&utm_medium=member_desktop&rcm=ACoAADKGGmcBuM9dS9vcuiJOBDeQrBrivN2JO1Q" target="_blank" class="project-link">View post</a> 
+                </div>
+
+                <div class="project-card" data-category="ml">
+                    <h3>Recipe Recognizer</h3>
+                    <p>Deep Learning-based image recognition for recipes.</p>
+                    <a href="https://github.com/HariKiran30/Recipe-Recognition" target="_blank" class="project-link">View Code</a>
+                </div>
+                <div class="project-card" data-category="Analysis">
+                    <h3>Netflix Data Analysis</h3>
+                    <p>Data visualization using Tableau.</p>
+                    <a href="https://github.com/HariKiran30/NETFLIX-Data-Analysis-" target="_blank" class="project-link">View Code</a>
+                </div>
+                <div class="project-card" data-category="game">
+                    <h3>3rd Person Controller</h3>
+                    <p>Car game built with Unity.</p>
+                    <a href="https://www.linkedin.com/posts/hari-kiran-tiriveedi_gamedevelopment-zombies-cargame-activity-7189465730151526400-U_Zw" target="_blank" class="project-link">View Post</a>
+                </div>
+                <div class="project-card" data-category="web">
+                    <h3>Temperature Converter</h3>
+                    <p>Simple Java-based web tool.</p>
+                    <a href="https://github.com/HariKiran30/Temperature-Conversion" target="_blank" class="project-link">View Code</a>
+                </div>
+
+                
+            </div>
+            <img src="assets/LOGO2.png" alt="Logo" id="logo">
+        </section>
+
+        
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">Python</div>
+                <div class="skill-card">R Programming</div>
+                <div class="skill-card">SQL</div>
+                <div class="skill-card">Java</div>
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">JavaScript</div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> <a href="mailto:harikirantiriveedi30@gmail.com">harikirantiriveedi30@gmail.com</a></p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/hari-kiran-tiriveedi/" target="_blank">LinkedIn</a></p>
+                <!-- <p><i class="fas fa-file-alt"></i> <a href="https://drive.google.com/file/d/1WmXhabDJg30poGy8yOj1V8LMDWpUdse1/view?usp=drivesdk" target="_blank">Resume</a></p> -->
+                
+            </div>
+            <img src="assets/LOGO2.png" alt="Logo" id="logo">
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
